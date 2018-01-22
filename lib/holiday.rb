@@ -39,6 +39,7 @@ def all_winter_holiday_supplies(holiday_hash)
  winter_supplies = []
  holiday_supplies[:Winter].each_key do |holiday|
    winter_supplies.push(holiday_supplies[:Winter][holiday])
+ end
 end
 
 def all_supplies_in_holidays(holiday_hash)
